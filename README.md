@@ -1,5 +1,5 @@
 # A billion Telegram messages about the 2024 US presidential election
-A link to the dataset will be posted very soon.
+The dataset is available at: https://academictorrents.com/details/969ef8cbef89bcd6dc88e85e30a37a630c0ba76f
 
 
 ## Data usage agreement
