@@ -1,5 +1,13 @@
 # A billion Telegram messages about the 2024 US presidential election
 The dataset is available at: https://academictorrents.com/details/969ef8cbef89bcd6dc88e85e30a37a630c0ba76f
+To combine the split files, do:
+```
+cat scraped_part_* > usc_tg_24_us_election.tar.zst
+```
+And decompress like:
+```
+tar --use-compress-program=unzstd -xvf usc_tg_24_us_election.tar.zst
+```
 
 Note: Our torrent seeders are currently overwhelmed. We are looking into providing better availability. Apologies for the slow download rates.
 
