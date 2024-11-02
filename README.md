@@ -1,6 +1,8 @@
 # A billion Telegram messages about the 2024 US presidential election
 The dataset is available at: https://academictorrents.com/details/969ef8cbef89bcd6dc88e85e30a37a630c0ba76f
 
+Note: Our torrent seeders are currently overwhelmed. We are looking into providing better availability. Apologies for the slow download rates.
+
 
 ## Data usage agreement
 This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0). By using this dataset, you agree to abide by the stipulations in the license and cite the following manuscript:
