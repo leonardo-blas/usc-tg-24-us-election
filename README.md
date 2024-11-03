@@ -14,7 +14,7 @@ The decompressed `scraped` folder weights around 850GB. Furthermore, as mentione
 
 Release v1: ~490M messages, ~29,900 chats, ~850GB.
 
-The dataset will be updated until the end of the year. We expect to reach ~1B messages by then.
+The dataset will be updated until the end of the year. We expect to collect ~1B messages by then.
 
 Note: Our torrent seeders are currently overwhelmed. We are looking into providing better availability. Apologies for the slow download rates.
 
