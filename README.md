@@ -22,6 +22,6 @@ And decompress like:
 tar --use-compress-program=unzstd -xvf scraped.tar.zst
 ```
 
-The decompressed `scraped` folder weights around 850GB. Furthermore, as mentioned in the paper, some Telegram objects in the SQLite databases were JSON-serialized, UTF-8 encoded, and `zlib` compressed; a version of this dataset in which all `zlib`-compressed entries are decompressed may consume thrice as much space. If storage is a concern, it is recommended to decompress and analyze Telegram objects at runtime. Additionally, it is recommended to drop the timestamp columns if they are not needed, as they consume a considerable amount of space.
+The decompressed `scraped` folder weights around 850GB. Furthermore, as mentioned in the paper, some Telegram objects in the SQLite databases were JSON-serialized, UTF-8 encoded, and `zlib` compressed; a version of this dataset in which all `zlib`-compressed entries are decompressed may consume **thrice as much space**. If storage is a concern, it is recommended to decompress and analyze Telegram objects at runtime. If you still wish to decompress a .db file, you can use `decompress.py`. Lastly, it is recommended to drop the timestamp columns if they are not needed, as they consume a considerable amount of space.
 
 Note: Our torrent seeders are currently overwhelmed. We are looking into providing better availability. Apologies for the slow download rates.
