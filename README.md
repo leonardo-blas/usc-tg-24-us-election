@@ -3,7 +3,7 @@ The dataset is available at: https://academictorrents.com/details/969ef8cbef89bc
 
 **Release v1**: ~490M messages, ~29,900 chats, ~850GB.
 <br>
-**Comments**: Some files were corrupted and purged---v1 was sanitized---representing a setback of ~50M messages and ~3,000 chats.
+**Comments**: Some files were corrupted and purged--v1 was sanitized---representing a setback of ~50M messages and ~3,000 chats.
 
 The collection is ongoing and the dataset will be updated until the end of the year. We expect to collect ~1B messages by then.
 
