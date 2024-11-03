@@ -20,3 +20,15 @@ This dataset is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 Leonardo Blas, Luca Luceri, and Emilio Ferrara. Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election: Development of a Public Dataset. 2024. arXiv, https://arxiv.org/abs/2410.23638.
 
+```
+@misc{blas2024unearthingbilliontelegramposts,
+      title={Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election: Development of a Public Dataset}, 
+      author={Leonardo Blas and Luca Luceri and Emilio Ferrara},
+      year={2024},
+      eprint={2410.23638},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI},
+      url={https://arxiv.org/abs/2410.23638}, 
+}
+```
+
