@@ -1,8 +1,7 @@
 # A billion Telegram messages about the 2024 US presidential election
 The dataset is available at:
 * https://academictorrents.com/details/969ef8cbef89bcd6dc88e85e30a37a630c0ba76f.
-* https://drive.google.com/drive/folders/1cC5vDqe9_vQjODJ5FDikAPOhjn2MI4HQ?usp=drive_link
-
+* https://drive.google.com/drive/folders/1cC5vDqe9_vQjODJ5FDikAPOhjn2MI4HQ?usp=drive_link.
 
 **Release v1**: ~490M messages, ~29,900 chats, ~850GB.
 <br>
