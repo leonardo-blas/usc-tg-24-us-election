@@ -28,3 +28,6 @@ The decompressed `scraped` folder weights around 850GB. Furthermore, as mentione
 
 ## Top chats
 The N top chats---ranked via unique incoming edge count, an influence proxy metric---can be determined using `chats.db` and `get_top_chats.py`. The default N is 500, but this can be changed within the script.
+
+## Acknowledgements
+To all torrent seeders worldwide, thank you for mirroring the dataset! It's greatly appreciated!
