@@ -14,7 +14,7 @@
 * Lower message yield than expected due to prioritizing updating over discovering chats. v3 should (hopefully) have a higher yield. Additionally, we are considering scraping until the end of January or February to capture messages about the presidential transition. 
 
 
-The collection is ongoing and the dataset will be updated every month.
+The collection will continue at least until the end of the year and the dataset will be updated every month.
 
 
 ## Data usage agreement
