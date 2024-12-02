@@ -1,14 +1,15 @@
 # A billion Telegram messages about the 2024 US presidential election
-**v1 (11-01-24)**: ~490M messages, ~29,900 chats, ~850GB.
+
+## v1 (11-01-24)
+* ~490M messages, ~29,900 chats, ~850GB.
 * https://academictorrents.com/details/969ef8cbef89bcd6dc88e85e30a37a630c0ba76f.
 * https://drive.google.com/drive/folders/1cC5vDqe9_vQjODJ5FDikAPOhjn2MI4HQ?usp=drive_link.
-
-**Comments**: Some files were corrupted and purged---v1 was sanitized---representing a setback of ~50M messages and ~3,000 chats.
+* Some files were corrupted and purged---v1 was sanitized---representing a setback of ~50M messages and ~3,000 chats.
   
-**v2 (12-02-24)**: ~630M messages, ~34,000 chats, ~1.1TB.
+## v2 (12-02-24)
+* ~630M messages, ~34,000 chats, ~1.1TB.
 * https://academictorrents.com/details/5b3a589175108abbe2afcd8e77c92f97e5b6100f.
-
-**Comments**: Lower message yield than expected due to prioritizing updating over discovering chats. v3 should (hopefully) have a higher yield. Additionally, we are considering scraping until the end of January or February, to capture messages about the presidential transition. 
+* Lower message yield than expected due to prioritizing updating over discovering chats. v3 should (hopefully) have a higher yield. Additionally, we are considering scraping until the end of January or February, to capture messages about the presidential transition. 
 
 
 The collection is ongoing and the dataset will be updated every month.
