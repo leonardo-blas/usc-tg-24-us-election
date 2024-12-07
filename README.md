@@ -39,4 +39,4 @@ The N top chats---ranked via unique incoming edge count, an influence proxy metr
 
 ## Acknowledgements
 To all torrent seeders worldwide, thank you for mirroring the dataset! It's greatly appreciated!
-Additionally, we thank AcademicTorrents.com for making data available for our research.
+Additionally, we thank AcademicTorrents.com for making our data available worldwide!
