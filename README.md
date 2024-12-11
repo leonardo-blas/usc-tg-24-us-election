@@ -5,6 +5,7 @@
 ### v2 (12-02-24)
 * ~630M messages, ~34,000 chats, ~1.1TB.
 * https://academictorrents.com/details/5b3a589175108abbe2afcd8e77c92f97e5b6100f.
+* https://app.globus.org/file-manager?origin_id=6f94a5b4-eba1-4d10-84a3-9ef2e89c5657&origin_path=%2F
 * Lower message yield than expected due to prioritizing updating over discovering chats. v3 should (hopefully) have a higher yield. Additionally, we are considering scraping until the end of January or February to capture messages about the presidential transition. 
 
 ### v1 (11-01-24)
