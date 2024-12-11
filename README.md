@@ -23,7 +23,7 @@ This dataset is licensed under the Creative Commons Attribution-NonCommercial-Sh
 Leonardo Blas, Luca Luceri, and Emilio Ferrara. Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election: Development of a Public Dataset. 2024. https://doi.org/10.48550/arXiv.2410.23638. 
 
 ## Instructions
-Combine the split files like:
+If you you have files like `scraped_part_*`---some distributions may feature one single `scraped.tar.zst`---combine them like:
 ```
 cat scraped_part_* > scraped.tar.zst
 ```
