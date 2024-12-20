@@ -8,7 +8,7 @@
 * https://drive.google.com/drive/folders/1cC5vDqe9_vQjODJ5FDikAPOhjn2MI4HQ?usp=drive_link (upload in progress).
 * https://app.globus.org/file-manager?origin_id=6f94a5b4-eba1-4d10-84a3-9ef2e89c5657&origin_path=%2F.
 * Lower message yield than expected due to prioritizing updating over discovering chats. v3 should (hopefully) have a higher yield. Additionally, we are considering scraping until the end of January or February to capture messages about the presidential transition.
-* Note that the second link will require a Globus subscription (many North American institutions have one). Globus transfers are considerably faster. Globus transfers were tested; they work. The most common problem is not giving write permissions to your desired output directory on the Globus Desktop app.
+* Note that the second link will require a Globus subscription (many North American institutions have one). Globus transfers are considerably faster. Globus transfers were tested; they work. The most common problem is not giving write permissions to your desired output directory on the Globus Desktop app (including external storage drives).
 
 ### v1 (11-01-24)
 * ~490M messages, ~29,900 chats, ~850GB.
