@@ -31,7 +31,7 @@ If you you have files like `scraped_part_*`---some distributions may feature one
 ```
 cat scraped_part_* > scraped.tar.zst
 ```
-And decompress like:
+Once you have `scraped.tar.zst`, decompress like:
 ```
 tar --use-compress-program=unzstd -xvf scraped.tar.zst
 ```
