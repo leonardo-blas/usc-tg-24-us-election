@@ -3,7 +3,7 @@
 ## Releases
 
 ### v2 (12-02-24)
-* ~630M messages, ~34,000 chats, ~1.1TB.
+* ~630M messages, ~34,000 chats, ~1.1TB decompressed.
 * https://academictorrents.com/details/5b3a589175108abbe2afcd8e77c92f97e5b6100f.
 * https://drive.google.com/drive/folders/1cC5vDqe9_vQjODJ5FDikAPOhjn2MI4HQ?usp=drive_link (upload in progress).
 * https://app.globus.org/file-manager?origin_id=6f94a5b4-eba1-4d10-84a3-9ef2e89c5657&origin_path=%2F.
@@ -11,7 +11,7 @@
 * Note that the second link will require a Globus subscription (many North American institutions have one). Globus transfers are considerably faster. Globus transfers were tested; they work. The most common problem is not giving write permissions to your desired output directory on the Globus Desktop app (including external storage devices).
 
 ### v1 (11-01-24)
-* ~490M messages, ~29,900 chats, ~850GB.
+* ~490M messages, ~29,900 chats, ~850GB decompressed.
 * https://academictorrents.com/details/969ef8cbef89bcd6dc88e85e30a37a630c0ba76f.
 * Some files were corrupted and purged---v1 was sanitized---representing a setback of ~50M messages and ~3,000 chats.
   
@@ -36,7 +36,7 @@ Once you have `scraped.tar.zst`, decompress like:
 tar --use-compress-program=unzstd -xvf scraped.tar.zst
 ```
 
-The decompressed `scraped` folder weights around 850GB. Furthermore, as mentioned in the paper, some Telegram objects in the SQLite databases were JSON-serialized, UTF-8 encoded, and `zlib` compressed; a version of this dataset in which all `zlib`-compressed entries are decompressed may consume **thrice as much space**. If storage is a concern, it is recommended to decompress and analyze Telegram objects at runtime. If you still wish to decompress a .db file, you can use `decompress.py`.
+As mentioned in the paper, some Telegram objects in the SQLite databases were JSON-serialized, UTF-8 encoded, and `zlib` compressed; a version of this dataset in which all `zlib`-compressed entries are decompressed may consume **thrice as much space**. If storage is a concern, it is recommended to decompress and analyze Telegram objects at runtime. If you still wish to decompress a .db file, you can use `decompress.py`.
 
 ## Top chats
 The N top chats---ranked via unique incoming edge count, an influence proxy metric---can be determined using `chats.db` and `get_top_chats.py`. The default N is 500, but this can be changed within the script.
