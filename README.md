@@ -2,6 +2,8 @@
 
 ## Releases
 
+### v3 (to be released in late January/early February)
+
 ### v2 (12-02-24)
 * ~630M messages, ~34,000 chats, ~1.1TB decompressed.
 * https://academictorrents.com/details/5b3a589175108abbe2afcd8e77c92f97e5b6100f.
