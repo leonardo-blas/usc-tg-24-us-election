@@ -8,7 +8,7 @@
 * \>1B messages, ~43,800 chats, ~1.51TB decompressed.
 * https://app.globus.org/file-manager?origin_id=021c59ee-d1f7-439a-8907-b0d345ac0441&origin_path=%2F.
 * Note that the Globus link will require a subscription (many North American institutions have one). Globus transfers are considerably faster and were tested; they work. The most common problem is not giving write permissions to your desired output directory on the Globus Desktop app (including external storage devices).
-* Working on an Academic Torrents link and a more viable distribution for this and/or the last dataset version (v4).
+* Working on more viable distribution methods for this and/or the last dataset version (v4).
 
 ### v2 (12-02-24)
 * ~630M messages, ~34,000 chats, ~1.1TB decompressed.
