@@ -6,7 +6,8 @@
 
 ### v3 (02-02-25)
 * ~1.04B messages, ~43,800 chats, ~1.51TB decompressed.
-* https://app.globus.org/file-manager?origin_id=021c59ee-d1f7-439a-8907-b0d345ac0441&origin_path=%2F.
+* https://app.globus.org/file-manager?origin_id=c3e4dc38-a5e2-47d5-baa2-8b3f5b2a59db&origin_path=%2F (individual .db files)
+* https://app.globus.org/file-manager?origin_id=021c59ee-d1f7-439a-8907-b0d345ac0441&origin_path=%2F (entire dataset compressed and split).
 * Note that the Globus link will require a subscription (many North American institutions have one). Globus transfers are considerably faster and were tested; they work. The most common problem is not giving write permissions to your desired output directory on the Globus Desktop app (including external storage devices).
 * Working on more viable distribution methods for this and/or the last dataset version (v4).
 
