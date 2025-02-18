@@ -18,11 +18,11 @@ Feel free to reach out with any questions!
 ## Data usage agreement
 This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0). By using this dataset, you agree to abide by the stipulations in the license and cite the following dataset:
 
-Leonardo Blas, Luca Luceri, and Emilio Ferrara. Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election. 2025. [](doi.org/10.7910/DVN/1M5KHX)
+Leonardo Blas, Luca Luceri, and Emilio Ferrara. Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election. 2025. [doi.org/10.7910/DVN/1M5KHX](doi.org/10.7910/DVN/1M5KHX)
 
 And the following manuscript:
 
-Leonardo Blas, Luca Luceri, and Emilio Ferrara. Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election: Development of a Public Dataset. 2024. [](doi.org/10.48550/arXiv.2410.23638)
+Leonardo Blas, Luca Luceri, and Emilio Ferrara. Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election: Development of a Public Dataset. 2024. [doi.org/10.48550/arXiv.2410.23638](doi.org/10.48550/arXiv.2410.23638)
 
 ## Instructions
 If you you have files like `scraped_part_*`---some distributions may feature one single `scraped.tar.zst`---combine them like:
