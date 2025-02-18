@@ -3,7 +3,6 @@
 * https://app.globus.org/file-manager?origin_id=c3e4dc38-a5e2-47d5-baa2-8b3f5b2a59db&origin_path=%2F (individual .db files)
 * https://doi.org/10.7910/DVN/1M5KHX (entire dataset compressed and split; you need all scraped_part_* files).
 * Note that the Globus link will require a subscription (many North American institutions have one). Globus transfers are fast and were tested; they work. The most common problem is not giving write permissions to your desired output directory on the Globus Desktop app (including external storage devices).
-* Working on more viable distribution methods for this and/or the last dataset version (v4).
 
 
 Feel free to reach out with any questions!
