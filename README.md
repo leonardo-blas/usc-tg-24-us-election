@@ -1,10 +1,4 @@
 # A billion Telegram messages about the 2024 US presidential election
-
-## Releases
-
-### v4 (early March)
-
-### v3 (02-02-25)
 * ~1.04B messages, ~43K chats, ~1.5TB decompressed.
 * https://app.globus.org/file-manager?origin_id=c3e4dc38-a5e2-47d5-baa2-8b3f5b2a59db&origin_path=%2F (individual .db files)
 * https://doi.org/10.7910/DVN/1M5KHX (entire dataset compressed and split; you need all scraped_part_* files).
