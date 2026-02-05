@@ -257,23 +257,29 @@ This applies only to messages in English and Russian.
 ### toxicity | REAL
 
 A 0-1 score acquired from the Perspective API. Here, toxicity is defined as "A rude, disrespectful, or unreasonable comment that is likely to make people leave a discussion."
+This applies only to messages in English.
 
 ### severe_toxicity | REAL
 
 A 0-1 score acquired from the Perspective API. Here, severe toxicity is defined as "A very hateful, aggressive, disrespectful comment or otherwise very likely to make a user leave a discussion or give up on sharing their perspective. This attribute is much less sensitive to more mild forms of toxicity, such as comments that include positive uses of curse words."
+This applies only to messages in English.
 
 ### identity_attack | REAL
 
 A 0-1 score acquired from the Perspective API. Here, an identity attack is defined as "Negative or hateful comments targeting someone because of their identity."
+This applies only to messages in English.
 
 ### insult | REAL
 
 A 0-1 score acquired from the Perspective API. Here, an insult is defined as "Insulting, inflammatory, or negative comment towards a person or a group of people."
+This applies only to messages in English.
 
 ### profanity | REAL
 
 A 0-1 score acquired from the Perspective API. Here, a profanity is defined as "Swear words, curse words, or other obscene or profane language."
+This applies only to messages in English.
 
 ### threat | REAL
 
 A 0-1 score acquired from the Perspective API. Here, a threat is defined as "Describes an intention to inflict pain, injury, or violence against an individual or group."
+This applies only to messages in English.
