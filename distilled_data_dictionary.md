@@ -1,4 +1,4 @@
-# TG distilled data dictionary
+# Distilled data dictionary
 
 ## Prelude
 
