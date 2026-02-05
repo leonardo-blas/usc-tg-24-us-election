@@ -1,8 +1,7 @@
 # A billion Telegram messages about the 2024 US presidential election
-* ~1.03B messages, ~43K chats, ~1.5TB decompressed.
-* https://app.globus.org/file-manager?origin_id=c3e4dc38-a5e2-47d5-baa2-8b3f5b2a59db&origin_path=%2F (individual .db files, doesn't include chats.db)
-* https://doi.org/10.7910/DVN/1M5KHX (chats.db and the entire dataset compressed and split; you need all scraped_part_* files).
-* Note that the Globus link will require a subscription (many North American institutions have one). Globus transfers are fast and were tested; they work. The most common problem is not giving write permissions to your desired output directory on the Globus Desktop app (including external storage devices).
+* ~1.03B messages, ~43K chats, ~0.8TB (distilled).
+* https://huggingface.co/datasets/leonardoblas/us_election_2024_telegram_distilled.
+* The raw version is no longer available. The distilled version flattens the raw JSON documents nicely into a SQL format. Some fields were dropped, but the most important ones were retained.
 
 
 Feel free to reach out with any questions!
@@ -11,24 +10,43 @@ Feel free to reach out with any questions!
 ## Data usage agreement
 This dataset is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. For more information, refer to [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/). By using this dataset, you agree to abide by the stipulations in the license and cite the following manuscript:
 
-Leonardo Blas, Luca Luceri, and Emilio Ferrara. Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election: Development of a Public Dataset. 2024. [doi.org/10.48550/arXiv.2410.23638](doi.org/10.48550/arXiv.2410.23638)
+```tex
+@inproceedings{10.1145/3701716.3715297,
+  author = {Blas, Leonardo and Luceri, Luca and Ferrara, Emilio},
+  title = {Unearthing a Billion Telegram Posts about the 2024 U.S. Presidential Election: Development of a Public Dataset},
+  year = {2025},
+  isbn = {9798400713316},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3701716.3715297},
+  doi = {10.1145/3701716.3715297},
+  abstract = {With its lenient moderation and long-standing associations with potentially unlawful activities, Telegram has become an incubator for problematic content, frequently featuring conspiratorial, hyper-partisan, and fringe narratives. Exacerbating these concerns, investigations have underscored Telegram's role in organizing violent acts, such as those that occurred during the Capitol Hill attack on January 6, 2021. As of 2024, Telegram represents a focal arena for societal and political discourse, warranting close attention from the research community, regulators, and the media. Thus, we present a Telegram dataset focused on the 2024 US Presidential Election, comprising over 43 thousand chats and over 1 billion messages, and featuring chats' details, profile pictures, messages, and user information. In addition, we present application scenarios for this dataset, such as the construction of a network of chats, which can facilitate the analysis of interconnected communities, and a sample of harmful messages aimed at mobilizing supporters ahead of now-reported protests, which can serve as a case study to explore coordinated dynamics from the online to the offline world. This resource represents the largest public Telegram dataset to date, offering an unprecedented opportunity to study political discussion on Telegram.},
+  booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+  pages = {729–732},
+  numpages = {4},
+  keywords = {dataset, elections, keywords{telegram, politics}},
+  location = {Sydney NSW, Australia},
+  series = {WWW '25}
+}
+```
 
-## Instructions
-If you you have files like `scraped_part_*`---some distributions may feature one single `scraped.tar.zst`---combine them like:
-```
-cat scraped_part_* > scraped.tar.zst
-```
-Once you have `scraped.tar.zst`, decompress like:
-```
-tar --use-compress-program=unzstd -xvf scraped.tar.zst
+
+If you wish to use or know how we assigned the "political" labels, please cite/refer to:
+```tex
+@article{Blas2025Telegram,
+  author  = {Blas, Leonardo and Saraf, Diya and Salkar, Tanishq and Adadurova, Nora and Luceri, Luca and Ferrara, Emilio},
+  title   = {Large-scale detection of multilingual coordinated activity on Telegram},
+  journal = {npj Complexity},
+  year    = {2025},
+  volume  = {2},
+  pages   = {33},
+  month   = nov,
+  doi     = {10.1038/s44260-025-00056-w},
+  url     = {https://doi.org/10.1038/s44260-025-00056-w},
+  publisher = {Springer Nature}
+}
 ```
 
-As mentioned in the paper, some Telegram objects in the SQLite databases were JSON-serialized, UTF-8 encoded, and `zlib` compressed; a version of this dataset in which all `zlib`-compressed entries are decompressed may consume **thrice as much space**. If storage is a concern, it is recommended to decompress and analyze Telegram objects at runtime. If you still wish to decompress a .db file, you can use `decompress.py`.
 
 ## Top chats
 The N top chats---ranked via unique incoming edge count, an influence proxy metric---can be determined using `chats.db` and `get_top_chats.py`. The default N is 500, but this can be changed within the script.
-
-## Acknowledgements
-To all torrent seeders worldwide, thank you for mirroring the dataset! It's greatly appreciated!
-<br>
-Additionally, we thank AcademicTorrents.com for making our data available worldwide!
